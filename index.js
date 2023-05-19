@@ -30,6 +30,17 @@ async function run() {
 
         const toysCollection = client.db('kidsToyWorld').collection('toys');
 
+        // all toys get function
+        app.get('/allToys', async (req, res) => {
+            let query = {};
+            if (req.query?.email) {
+                query = { email: req.query.email }
+            }
+            const result = await toysCollection.find(query).toArray();
+            res.send(result)
+        });
+
+
         // toy post
         app.post('/addToy', async (req, res) => {
             const toyData = req.body;
