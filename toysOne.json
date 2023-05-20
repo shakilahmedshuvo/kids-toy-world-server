@@ -2,14 +2,14 @@
     {
         "id": 1,
         "name": "Racing Car",
-        "photo": "https://img.freepik.com/premium-vector/hand-drawn-vector-illustration-teddy-bear-racer-costume-with-racing-car_7393-2772.jpg?w=740",
+        "photo": "https://img.freepik.com/premium-photo/ultramodern-red-super-sports-car-with-midengine-layout-black-background-3d-illustration_101266-20814.jpg?w=996",
         "price": "9$",
         "ratings": "4.5"
     },
     {
         "id": 2,
         "name": "Racing Car",
-        "photo": "https://img.freepik.com/premium-photo/fun-mechanic-3d-illustration_183364-103707.jpg?w=826",
+        "photo": "https://img.freepik.com/premium-photo/super-sports-car-black-background-3d-illustration_101266-20827.jpg?w=996",
         "price": "10$",
         "ratings": "5"
     }
