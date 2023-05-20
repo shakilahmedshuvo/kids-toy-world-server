@@ -4,6 +4,10 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 require('dotenv').config()
 const app = express();
 const port = process.env.PORT || 5000;
+// json files for toys
+const toyOne = require('./toysOne.json');
+const toyTwo = require('./toysTwo.json');
+const toyThree = require('./toysThree.json');
 
 // use middle ware
 app.use(cors());
@@ -70,6 +74,18 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Kids Toy World is running')
 });
+
+// three toy json file section
+app.get('/toyOne', (req, res) => {
+    res.send(toyOne)
+});
+app.get('/toyTwo', (req, res) => {
+    res.send(toyTwo)
+});
+app.get('/toyThree', (req, res) => {
+    res.send(toyThree)
+});
+
 app.listen(port, () => {
     console.log(`Kids Toy World is running on port: ${port}`);
 })
