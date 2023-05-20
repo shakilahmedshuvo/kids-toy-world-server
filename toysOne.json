@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Racing Car",
+        "photo": "https://img.freepik.com/premium-vector/hand-drawn-vector-illustration-teddy-bear-racer-costume-with-racing-car_7393-2772.jpg?w=740",
+        "price": "9$",
+        "ratings": "4.5"
+    },
+    {
+        "id": 2,
+        "name": "Racing Car",
+        "photo": "https://img.freepik.com/premium-photo/fun-mechanic-3d-illustration_183364-103707.jpg?w=826",
+        "price": "10$",
+        "ratings": "5"
+    }
+]

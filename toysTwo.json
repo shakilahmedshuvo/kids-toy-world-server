@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Truck",
+        "photo": "https://img.freepik.com/free-vector/letter-t-truck_1308-84459.jpg?w=826&t=st=1684566848~exp=1684567448~hmac=54e351a706e61cbac5b0a546432a574df8b5c46005033c64b35527f7a1a6330b",
+        "price": "8$",
+        "ratings": "4.7"
+    },
+    {
+        "id": 2,
+        "name": "Truck",
+        "photo": "https://img.freepik.com/free-vector/vector-yellow-dump-truck-unloading-side-view-illustration-isolated-white-background_8130-972.jpg?w=740&t=st=1684566885~exp=1684567485~hmac=a2d700f3a9253baf846c20966bf61c172484deaa646374474dc98e989d0da1a3",
+        "price": "12$",
+        "ratings": "4.5"
+    }
+]

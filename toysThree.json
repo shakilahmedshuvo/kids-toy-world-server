@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Mini Fire Truck",
+        "photo": "https://img.freepik.com/free-vector/skull-rider-illustration-vintage-style-sticker_32991-495.jpg?w=740&t=st=1684566952~exp=1684567552~hmac=6fd450755c8869f3fe5b589cf2bf05b7f4122c0e94427e9502699f47d4b03f7c",
+        "price": "12$",
+        "ratings": "5"
+    },
+    {
+        "id": 2,
+        "name": "Mini Fire Truck",
+        "photo": "https://img.freepik.com/free-vector/red-firetruck-with-rescue-ladder-fire-background_1284-11978.jpg?w=740&t=st=1684566981~exp=1684567581~hmac=8d63e9456bf99eb4d53044fd50ae58c8e63373d9b9f853a5b965b7f7beb4aaf5",
+        "price": "15$",
+        "ratings": "4.8"
+    }
+]
