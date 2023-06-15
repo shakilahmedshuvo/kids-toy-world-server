@@ -5,3 +5,10 @@
 * Dot Env
 * Cors
 * Vercel Deploy
+
+* Assignment- 11
+* 56/60
+
+* Privet Repo: https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-shakilahmedshuvo
+
+* Live Website Link: https://kids-toy-world.web.app/

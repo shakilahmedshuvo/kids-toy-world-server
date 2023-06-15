@@ -11,7 +11,7 @@ const toyThree = require('./toysThree.json');
 
 // use middle ware
 app.use(cors());
-app.use(express.json())
+app.use(express.json());
 
 
 // mongodb
@@ -95,7 +95,7 @@ async function run() {
 }
 run().catch(console.dir);
 
-
+// base api
 app.get('/', (req, res) => {
     res.send('Kids Toy World is running')
 });
@@ -110,6 +110,7 @@ app.get('/toyTwo', (req, res) => {
 app.get('/toyThree', (req, res) => {
     res.send(toyThree)
 });
+
 
 app.listen(port, () => {
     console.log(`Kids Toy World is running on port: ${port}`);
